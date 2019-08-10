@@ -1,5 +1,4 @@
 ## 多个仓库，推送单个仓库
-```pipline
 def encryption(file) {
     stage('encry file') {
         base64_value = sh (
@@ -68,4 +67,3 @@ node('master') {
         }
     }
 }
-```

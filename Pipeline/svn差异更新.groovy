@@ -1,6 +1,5 @@
 ### 测试pipeline
 
-```pipeline
 def get_revision() {
     stage('get_revision') {
         echo "===> Get Revision <==="
@@ -213,4 +212,3 @@ node('master') {
         sh 'rm -f tmp.txt'
     }
 }
-```
