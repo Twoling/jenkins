@@ -1,4 +1,4 @@
-## 多个仓库，推送单个仓库
+// 多个仓库，推送单个仓库
 def encryption(file) {
     stage('encry file') {
         base64_value = sh (
