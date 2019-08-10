@@ -1,4 +1,4 @@
-### 测试pipeline
+// 测试pipeline
 
 def get_revision() {
     stage('get_revision') {
